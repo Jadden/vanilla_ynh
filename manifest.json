@@ -1,0 +1,64 @@
+{
+    "name": "",
+    "id": "",
+    "description": {
+        "en": "",
+        "fr": ""
+    },
+	"version": "",
+	"url": "",
+    "licence": "free",
+    "maintainer": {
+        "name": "Maniack Crudelis",
+        "email": "maniackc_dev@crudelis.fr"
+    },
+    "multi_instance": "",
+    "arguments": {
+        "install" : [
+            {
+                "name": "domain",
+                "ask": {
+                    "en": "",
+                    "fr": ""
+                },
+                "example": "domain.org"
+            },
+            {
+                "name": "path",
+                "ask": {
+                    "en": "",
+                    "fr": ""
+                },
+                "example": "/forum",
+                "default": "/forum"
+            },
+            {
+                "name": "admin",
+                "ask": {
+                    "en": "",
+                    "fr": ""
+                },
+                "example": "johndoe"
+            },
+            {
+                "name": "language",
+                "ask": {
+                    "en": "",
+                    "fr": ""
+                },
+                "choices": ["en_EN", "fr_FR"],
+                "default": "en_EN"
+            },
+            {
+                "name": "public_site",
+                "ask": {
+                    "en": "",
+                    "fr": ""
+                },
+                "choices": ["Yes", "No"],
+            }
+
+
+        ]
+    }
+}
